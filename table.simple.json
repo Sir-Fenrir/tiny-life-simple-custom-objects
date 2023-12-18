@@ -1,0 +1,10 @@
+{
+  "modId":  "CustomTable",
+  "categories": ["Table"],
+  "price": 200,
+  "name":  "CustomTable",
+  "atlas": "CustomFurniture",
+  "size": [ 1, 1 ],
+  "colorSchemes": [ "SimpleWood" ],
+  "TableSpots":  [1, 1]
+}
