@@ -1,5 +1,11 @@
 {
     "BuildMode": {
-        "SimpleObjectLoader.CustomTable.CustomTable": "A custom table"
+        "SimpleObjectLoader.SimpleExample.CustomTable": "A custom table",
+		"SimpleObjectLoader.SimpleExample.ExpensiveChair": "An Expensive Chair"
+    },
+	"Clothes": {
+        "SimpleObjectLoader.SimpleExample.PastelPants": "Pastel Pants",
+        "SimpleObjectLoader.SimpleExample.PastelShoes": "Pastel Shoes",
+        "SimpleObjectLoader.SimpleExample.WeirdHair": "Weird Hair"
     }
 }
