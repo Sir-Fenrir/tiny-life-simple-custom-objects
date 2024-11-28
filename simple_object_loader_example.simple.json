@@ -1,0 +1,71 @@
+{
+	"modId": "SimpleExample" ,
+	"furniture": [
+		{
+			"categories": ["Table"],
+			"price": 200,
+			"name":  "CustomTable",
+			"atlas": "CustomTable",
+			"size": [ 1, 1 ],
+			"colorSchemes": [ "SimpleWood" ],
+			"TableSpots":  [1, 1]
+		},
+		{
+		  "categories": ["Chair"],
+		  "name":  "ExpensiveChair",
+		  "tab": "LivingRoom",
+		  "price": 500,
+		  "atlas": "ExpensiveChair",
+		  "size": [ 1, 1 ],
+		  "colorSchemes": [ "SimpleWood", "Modern" ],
+		  "actionSpots": [
+			{
+				"vectorX": 0,
+				"vectorY": 0,
+				"yOffset": -0.2,
+				"direction": "Adjacent",
+				"drawLayer": 1
+			}
+		  ],
+		  "defaultRotation": "Down",
+		  "colorMap": [1, 0, 1]	 
+		}
+	],
+	"clothes": [
+		{
+			"name": "PastelPants",
+			"layer": "Pants",
+			"file": "CustomBottomsShoes",
+			"price": 100,
+			"nrOfColumns": 8,
+			"nrOfRows": 6,
+			"firstRow": 0,
+			"firstColumn": 4,
+			"stylePreference": "Feminine",
+			"clothesIntention": ["Party", "Workout"],
+			"colorSchemes": ["Pastel"]
+		},
+		{
+			"name": "PastelShoes",
+			"layer": "Shoes",
+			"file": "CustomBottomsShoes",
+			"price": 100,
+			"nrOfColumns": 8,
+			"nrOfRows": 6,
+			"stylePreference": "Masculine",
+			"clothesIntention": ["Everyday", "Workout"],
+			"colorSchemes": ["Pastel"]
+		},
+		{
+			"name": "WeirdHair",
+			"layer": "Hair",
+			"file": "CustomHairs",
+			"price": 0,
+			"nrOfColumns": 4,
+			"nrOfRows": 5,
+			"stylePreference": "Masculine",
+			"clothesIntention": ["None"],
+			"colorSchemes": ["Modern"]
+		}
+	]
+}
