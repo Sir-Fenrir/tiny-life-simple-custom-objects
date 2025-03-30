@@ -1,93 +1,264 @@
 {
-	"modId": "SimpleExample" ,
-	"furniture": [
-		{
-			"categories": ["Table"],
-			"price": 200,
-			"name":  "CustomTable",
-			"atlas": "CustomTable",
-			"size": [ 1, 1 ],
-			"colorSchemes": [ "SimpleWood" ],
-			"TableSpots":  [1, 1]
-		},
-		{
-		  "categories": ["Chair"],
-		  "name":  "ExpensiveChair",
-		  "tab": "LivingRoom",
-		  "price": 500,
-		  "atlas": "ExpensiveChair",
-		  "size": [ 1, 1 ],
-		  "colorSchemes": [ "SimpleWood", "Modern" ],
-		  "actionSpots": [
-			{
-				"vectorX": 0,
-				"vectorY": 0,
-				"yOffset": -0.2,
-				"direction": "Adjacent",
-				"drawLayer": 1
-			}
-		  ],
-		  "defaultRotation": "Down",
-		  "colorMap": [1, 0, 1]	 
-		}
-	],
-	"clothes": [
-		{
-			"name": "PastelPants",
-			"layer": "Pants",
-			"file": "CustomBottomsShoes",
-			"price": 100,
-			"nrOfColumns": 8,
-			"nrOfRows": 6,
-			"firstRow": 0,
-			"firstColumn": 4,
-			"stylePreference": "Feminine",
-			"clothesIntention": ["Party", "Workout"],
-			"colorSchemes": ["Pastel"]
-		},
-		{
-			"name": "PastelShoes",
-			"layer": "Shoes",
-			"file": "CustomBottomsShoes",
-			"price": 100,
-			"nrOfColumns": 8,
-			"nrOfRows": 6,
-			"stylePreference": "Masculine",
-			"clothesIntention": ["Everyday", "Workout"],
-			"colorSchemes": ["Pastel"]
-		},
-		{
-			"name": "WeirdHair",
-			"layer": "Hair",
-			"file": "CustomHairs",
-			"price": 0,
-			"nrOfColumns": 4,
-			"nrOfRows": 5,
-			"stylePreference": "Masculine",
-			"clothesIntention": ["None"],
-			"colorSchemes": ["Modern"]
-		}
-	],
-	"wallpapers": [
-		{
-			"file": "Wallpapers",
-			"name": "CrossedWallpaper",
-			"price": 15,
-			"nrOfColumns": 4,
-			"nrOfRows": 5,
-			"colorSchemes": ["Modern"]
-		}
-	],
-	"tiles": [
-		{
-			"file": "Tiles",
-			"name": "CustomTile",
-			"price": 10,
-			"nrOfColumns": 4,
-			"nrOfRows": 2,
-			"colorSchemes": ["Pastel"]
-		}
-	],
+  "modId": "SimpleExample",
+  "modName": "Demonstration mod for use with the Simple Object Loader",
+  "Author": "Sir-Fenrir",
+  "furniture": [
+    {
+      "categories": [
+        "Table"
+      ],
+      "price": 200,
+      "name": "CustomTable",
+      "atlas": "CustomTable",
+      "size": [
+        1,
+        1
+      ],
+      "colorSchemes": [
+        "SimpleWood"
+      ],
+      "TableSpots": {
+        "size": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "categories": [
+        "Chair"
+      ],
+      "name": "ExpensiveChair",
+      "tab": "LivingRoom",
+      "price": 500,
+      "atlas": "ExpensiveChair",
+      "size": [
+        1,
+        1
+      ],
+      "decorativeRating": 10,
+      "colorSchemes": [
+        "SimpleWood",
+        "Modern"
+      ],
+      "actionSpots": [
+        {
+          "vectorX": 0,
+          "vectorY": 0,
+          "yOffset": -0.2,
+          "direction": "Adjacent",
+          "drawLayer": 1
+        }
+      ],
+      "defaultRotation": "Down",
+      "colorMap": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "categories": [
+        "Fridge"
+      ],
+      "name": "BASICFridge",
+      "tab": "Kitchen",
+      "price": 500,
+      "atlas": "BASICFridge",
+      "size": [
+        1,
+        1
+      ],
+      "colorSchemes": [
+        "Modern"
+      ],
+      "actionSpots": [
+        {
+          "vectorX": 0,
+          "vectorY": 0,
+          "yOffset": -0.2,
+          "direction": "Adjacent",
+          "drawLayer": 1
+        }
+      ],
+      "defaultRotation": "Down"
+    },
+    {
+      "categories": [
+        "Shower"
+      ],
+      "name": "BASICShower",
+      "tab": "Bathroom",
+      "price": 500,
+      "atlas": "BASICShower",
+      "size": [
+        1,
+        1
+      ],
+      "colorSchemes": [
+        "Ceramics",
+        "Modern",
+        "Transparent"
+      ],
+      "actionSpots": [
+        {
+          "vectorX": 0,
+          "vectorY": 0,
+          "yOffset": -0.2,
+          "direction": "Adjacent",
+          "drawLayer": 1
+        }
+      ],
+      "waterRating": 0,
+      "needModifier": 1,
+      "defaultRotation": "Down",
+      "colorMap": [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "categories": [
+        "Counter"
+      ],
+      "name": "BASICBathroomCounter",
+      "tab": "Bathroom",
+      "price": 500,
+      "atlas": "BASICBathroomCounter",
+      "size": [
+        1,
+        1
+      ],
+      "colorSchemes": [
+        "SimpleWood",
+        "Modern"
+      ],
+      "actionSpots": [
+        {
+          "vectorX": 0,
+          "vectorY": 0,
+          "yOffset": -0.2,
+          "direction": "Adjacent",
+          "drawLayer": 1
+        }
+      ],
+      "counterSpots": {
+      },
+      "defaultRotation": "Down",
+      "colorMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "categories": [
+        "Oven", "CounterObject", "DisallowedOnGround"
+      ],
+      "name": "BASICBuiltInOven",
+      "tab": "Kitchen",
+      "price": 500,
+      "atlas": "BASICBuiltInOven",
+      "size": [
+        1,
+        1
+      ],
+      "colorSchemes": [
+        "SimpleWood",
+        "Modern"
+      ],
+      "actionSpots": [
+        {
+          "vectorX": 0,
+          "vectorY": 0,
+          "yOffset": -0.2,
+          "direction": "Adjacent",
+          "drawLayer": 10
+        }
+      ],
+      "defaultRotation": "Down",
+      "colorMap": [
+        0,
+        1
+      ]
+    }
+  ],
+  "clothes": [
+    {
+      "name": "PastelPants",
+      "layer": "Pants",
+      "file": "CustomBottomsShoes",
+      "price": 100,
+      "nrOfColumns": 8,
+      "nrOfRows": 6,
+      "firstRow": 0,
+      "firstColumn": 4,
+      "stylePreference": "Feminine",
+      "clothesIntention": [
+        "Party",
+        "Workout"
+      ],
+      "colorSchemes": [
+        "Pastel"
+      ]
+    },
+    {
+      "name": "PastelShoes",
+      "layer": "Shoes",
+      "file": "CustomBottomsShoes",
+      "price": 100,
+      "nrOfColumns": 8,
+      "nrOfRows": 6,
+      "stylePreference": "Masculine",
+      "clothesIntention": [
+        "Everyday",
+        "Workout"
+      ],
+      "colorSchemes": [
+        "Pastel"
+      ]
+    },
+    {
+      "name": "WeirdHair",
+      "layer": "Hair",
+      "file": "CustomHairs",
+      "price": 0,
+      "nrOfColumns": 4,
+      "nrOfRows": 5,
+      "stylePreference": "Masculine",
+      "clothesIntention": [
+        "None"
+      ],
+      "colorSchemes": [
+        "Modern"
+      ]
+    }
+  ],
+  "wallpapers": [
+    {
+      "file": "Wallpapers",
+      "name": "CrossedWallpaper",
+      "price": 15,
+      "nrOfColumns": 4,
+      "nrOfRows": 5,
+      "colorSchemes": [
+        "Modern"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "file": "Tiles",
+      "name": "CustomTile",
+      "price": 10,
+      "nrOfColumns": 4,
+      "nrOfRows": 2,
+      "colorSchemes": [
+        "Pastel"
+      ]
+    }
+  ],
 }
 
 

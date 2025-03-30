@@ -1,0 +1,32 @@
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterDown
+loc 0 0 48 32
+piv 24 24
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterRight
+loc 0 32 48 32
+piv 24 56
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterLeft
+loc 0 64 48 32
+piv 24 88
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterUp
+loc 0 96 48 32
+piv 24 120
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterCornerDown
+loc 0 128 48 32
+piv 24 152
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterCornerRight
+loc 0 160 48 32
+piv 24 184
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterCornerLeft
+loc 0 192 48 32
+piv 24 216
+
+SimpleObjectLoader.SimpleExample.BASICBathroomCounterCornerUp
+loc 0 224 48 32
+piv 24 248

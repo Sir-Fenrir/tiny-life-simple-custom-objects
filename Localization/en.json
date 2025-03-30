@@ -3,7 +3,11 @@
         "SimpleObjectLoader.SimpleExample.CustomTable": "A custom table",
 		"SimpleObjectLoader.SimpleExample.ExpensiveChair": "An Expensive Chair",
 		"SimpleObjectLoader.SimpleExample.CrossedWallpaper": "Crossed Wallpaper",
-		"SimpleObjectLoader.SimpleExample.CustomTile": "Custom Tile"
+		"SimpleObjectLoader.SimpleExample.CustomTile": "Custom Tile",
+		"SimpleObjectLoader.SimpleExample.BASICFridge": "BASICFridge",
+		"SimpleObjectLoader.SimpleExample.BASICShower": "BASICShower",
+		"SimpleObjectLoader.SimpleExample.BASICBathroomCounter": "BASICBathroomCounter",
+		"SimpleObjectLoader.SimpleExample.BASICBuiltInOven": "BASICBuiltInOven"
     },
 	"Clothes": {
         "SimpleObjectLoader.SimpleExample.PastelPants": "Pastel Pants",

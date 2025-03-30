@@ -1,0 +1,15 @@
+SimpleObjectLoader.SimpleExample.BASICShowerDown
+loc 0 0 28 46
+piv 14 38
+
+SimpleObjectLoader.SimpleExample.BASICShowerUp
+loc 0 46 28 46
+piv 14 84
+
+SimpleObjectLoader.SimpleExample.BASICShowerRight
+loc 0 92 28 46
+piv 14 130
+
+SimpleObjectLoader.SimpleExample.BASICShowerLeft
+loc 0 138 28 46
+piv 14 176

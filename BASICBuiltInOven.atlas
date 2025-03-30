@@ -1,0 +1,15 @@
+SimpleObjectLoader.SimpleExample.BASICBuiltInOvenDown
+loc 0 0 32 32
+piv 14 7
+
+SimpleObjectLoader.SimpleExample.BASICBuiltInOvenRight
+loc 0 32 32 32
+piv 15 38
+
+SimpleObjectLoader.SimpleExample.BASICBuiltInOvenLeft
+loc 0 64 32 32
+piv 14 71
+
+SimpleObjectLoader.SimpleExample.BASICBuiltInOvenUp
+loc 0 96 32 32
+piv 16 102
